@@ -2,6 +2,26 @@
 
 ### ** PLEASE READ ** The below README is a sanitized version of my academic README. The general README contains links to all of the accompanying private repositories. Additionally, it contains more detailed grading statistics for each assignment. If you would like to access any or all of my academic work please reach out to me at dbl2127@columbia.edu and I will respond promptly.
 
+## Upcoming Courses 
+ 
+ 
+### CodePath -- Cybersecurity 
+**Semester: Spring 2020**
+
+### COMS 3261 -- Computer Science Theory 
+**Professor: Xi Chen**  
+**Semester: Spring 2020**
+
+
+### COMS 4118 -- Operating Systems I
+**Professor: Jason Nieh**  
+**Semester: Spring 2020**
+
+
+### COMS 3827 -- Fundementals of Computer Science
+**Professor: Daniel Rubenstein**  
+**Semester: Spring 2020**
+
 ## Courses Taken 
 
 ### COMS 3137 -- Advanced Programming 
@@ -188,6 +208,7 @@ The course works its way up from translating trivial calculations into Java to b
 5. Programming Project 5: Talk Scheduler -- The scheduler takes a list of possible "talks" In Name: Start - End format and outputs the maximum number of talks possible to schedule as a subset of the original list.
   * *Grade 63/70* 
   
+ 
  
 
 
