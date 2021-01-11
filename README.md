@@ -1,6 +1,6 @@
 # Academic Work
 
-I have private repositories for all of my computer science coursework as well as for the templating based executable I created during my time with Social Standards. If you are a prospective employer and would like to access any of these private repositories or Github Gists please reach out to me at dbl2127@columbia.edu and I will respond promptly with links.
+### ** PLEASE READ ** The below README is a sanitized version of my academic README. The general README contains links to all of the accompanying private repositories. Additionally, it contains more detailed grading statistics for each assignment. If you would like to access any or all of my academic work please reach out to me at dbl2127@columbia.edu and I will respond promptly.
 
 ## Courses Taken 
 
