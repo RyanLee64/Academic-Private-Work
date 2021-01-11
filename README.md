@@ -1,6 +1,6 @@
 # Academic Work
 
-### ** PLEASE READ ** The below README is a sanitized version of my academic README. The general README contains links to all of the accompanying private repositories. Additionally, it contains more detailed grading statistics for each assignment. If you would like to access any or all of my academic work please reach out to me at dbl2127@columbia.edu and I will respond promptly.
+### ** PLEASE READ ** The below README is a sanitized version of my academic README. The general README contains links to all of the accompanying private Gists. Additionally, it contains grading statistics for each assignment. If you would like to access any or all of my academic work please reach out to me at dbl2127@columbia.edu and I will respond promptly. ** PLEASE READ **
 
 ## Upcoming Courses 
  
@@ -89,27 +89,25 @@ Unit 7: Web-based software architecture
 
 1. Lab 1: Getting familiar with C and the Linux course environment. Simple average, prime, and decimal to binary convertor. The challenge was learning Vim, how to structure projects in the Linux environment, and learning the C syntax requisite to knock out what we needed to do.
 
-* *Grade 100/100*
+
 
 2. Lab 2: Sorting an integer array and writing the echo program to also capitalize each command line arg and write it next to the original arg in a descending list. The challenge of this lab was starting to wrap my head around memory management as well as making a Makefile for a project with a little more robustness than Lab 1. We used Valgrind to check for any and all memory leaks throughout the course.
 
-* *Grade 100/100*
+
 
 3. Lab 3: Implementation of a singly linked list and using our linked list to create an echo program which reverses the command line args passed to it. Essentially, we were provided with a pretty comprehensive list of functions we needed to build out in order to create our Linked List API. The linked list is the underlying data structure for our message database and was this lab was the first super concrete building block in the creation of our HTTP server.
 
-* *Grade 100/100*
+
 
 4. Lab 4: There is a bit of background necessary to understand what is going on with Lab 4. I have mentioned this message database of (name, message) pairs. This database is a binary, centralized database accessible to all 3137 students with each pair composed of a 40 character struct. Our task was to read the binary database into a singly linked list and then returns the pairs which contain the substring specified by the user in either the name or message. This was a great exercise in learning all about pointers, stucts, binary files, and more general File I/O. 
 
-* *Grade 98/100*
 
 5. Lab 5: Creating a hacky netcat server using a shell script to perform mdb-lookup and then using another shell script to create a less hacky netcat mdb-lookup server. Part 1 of Lab 5 was an exercise in using shell scripts, chaining programs together, and forking processes to create a desired result. The first part of the lab had us more or less create a shell script to wrap the command line arg we studied in class to run a mdb-lookup server using netcat. The second one has us wait for the forked process to return and continues running repeatedly instead of just once as in part 1. This was a great way to learn about the magic of pipes in [UNIX](https://www.youtube.com/watch?v=tc4ROCJYbm0) and learn about how to be a good steward of the fork/execl family of functions in order to avoid fork bombing into oblivion. 
 
-* *Grade 93/100*
+
 
 6. Lab 6: Here we use the Sockets API in order to create an MDB-lookup server which listens on the specified port for input. Using netcat we were able to feed input which then needed to be sanitized and read from the file descriptor associated with the port. Part 2 of the lab had us created a limited version of the wget program. We created a program which connected to the public port of a web server (80 in nearly every instance in my testing) and read line by line from the socket the result of the resource we were served by the web server on the other end. This data was then written out to a binary file whose name matched the resource specified at the end of the pathname. This was a great exercise in learning the underpinnings of the internet through the C sockets API. Part 2 was certainly limited in functionality compared to fgets as it could only access pages conforming to HTTP not HTTPS. It also taught us about endianness and the importance of conforming to the HTTP protocol on our end. 
 
-* *Grade 120/120*
 
 7. Lab 7: This is the crème de la crème of AP assignments. The assignment is straightfoward but was crazy spooky at the start of the semester -- writing an HTTP server from scratch. This project was twofold. First we wrote a program which served static content. The program would accept connections serve the specified resource and then close the socket. The status was printed out to stdout. In order for a webpage to be fully served this process happened several times per page. We had to create a page. I made mine about my dog naturally. ![alt text](https://github.com/RyanLee64/Academic-Private-Work/blob/main/lab7_webpage.png)
 
@@ -117,7 +115,7 @@ The second part of the lab was in my opinion the coolest. We spooled up the back
 
 Lab 7 really brought the whole course all together. 
 
-* *Grade 137/150*
+
 
 
 ### COMS 3134 -- Data Structures in Java
@@ -138,26 +136,25 @@ I came out of this course with a far better understanding of the importance of w
   * Create a *generic* rectangle class 
   * Implement a *generic* form of linear and binary search
   * Create objects with a given O(n^x) run-time specified by the user. We used the nanoTime method to confirm that these run-times were of the correct magnitude.
-  * *Grade 47.5/50*
+
 2. Programming Project 2:
   * Create a generic implementation of a Stack
   * Use the stack to test for symbol imbalances in a file passed as a command line argument
   * Create a generic Queue out of two Stacks
-  * Grade *56/60*
-  
+
 3. Programming Project 3:
   * Expression Tree Evaluator:
    The Expression Tree object takes an expression. There are accompanying prefix, infix, and postfix methods which recursively evaluate the expression in the specified order with the use of a stack.
    * Binary Search tree:
     The Better BST was an exercise in adding functionality to the BST class supplied by Proffesor Blaer -- so we added the functionality to check the height, print the tree, etc. 
-    * *Grade 36/65*
+
 4. Programming Project 4:
   * Spell Checker: 
    We created a spell checker program built on upon a hash table. The file (dictionary) passed to the constructor is parsed into a HashSet. Using the getIncorrectWords method each word is compared against the values of the HashSet dictionary. There is also a suggestions method which when supplied with a word helps the user out by generating an ArrayList of possible words they meant to say.
    * K-Best Values: This was a classic exercise in finding the k(largest) values of a dataset. What made the exercise a challenge were the runtime constraints put on our methods as well as the implementation of a priority queue as the underlying data structure used to handle the input set.
-   * *Grade 65/65*
+
  5. Programming Project 5: Dijkstra's Algorithm: this was the final programming project and it was really neat because wrapping my head around Dijkstra's in 1004 took a while but by this point I not only really thoroughly understood the use case for Dijkstra but also several other shortest path algorithms. Feeling comfortable programming this was really neat. We interacted with Dijkstra's through a GUI supplied by one of Professor Blaer's TAs that mapped out all of the major metros in the US. I personally for some reason was really struck by this. Getting to look at the source code made me less-intimidated about coding a GUI and was one of the inspirations for making a GUI for the Report Builder Helper I created for Social Standards.
-  * *Grade 60/60*
+
 
 ### COMS 3203 -- Discrete Mathematics
 **Professor: Ansaf Salleb-Aouissi**  
@@ -190,23 +187,23 @@ The course works its way up from translating trivial calculations into Java to b
   * Calculate the number of hours for a given period of time.
   * Calculate the date of Easter for a given year.
   * Binary leap year detector.
-  * *Grade 58/60*
+
   
  2. Programming Project 2: Checksum functionality for an inputted credit number based off of a set of      specified criteria.
-   * *Grade 44/50*
+
    
  3. Programming Project 3: The game of Nim -- Nim has the player and computer each select marbles from a pile. The goal is to make your opponent take the final marble. 
   * For more on Nim check out [this](https://en.wikipedia.org/wiki/Nim) Wikipedia article
   * Two Way Postal Zip Code to Letter bar code translator. 
   *I have included an image from the Cay Horstmann Big Java Early Objects 6e book to provide some context below.
   ![alt text](https://github.com/RyanLee64/Academic-Private-Work/blob/a33f59310d0e03d66478fd83a3019039d765f664/zip_to_bar.png)
-  * *Grade 58/60*
+
   
 4. Programming Project 4: Video Poker -- The player starts with 5 tokens and is allowed to bet up to 5 tokens in order to multiply their winnings *n* times. The player is dealt five cards. They are allowed to reject up to all five of the cards. They are then dealt cards to replace their rejected cards and the hand is then scored. For more on video poker check out [this](https://en.wikipedia.org/wiki/Video_poker) Wikipedia article.
-  * *Grade 56/60* 
+
   
 5. Programming Project 5: Talk Scheduler -- The scheduler takes a list of possible "talks" In Name: Start - End format and outputs the maximum number of talks possible to schedule as a subset of the original list.
-  * *Grade 63/70* 
+
   
  
  
