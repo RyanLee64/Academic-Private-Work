@@ -139,7 +139,18 @@ I came out of this course with a far better understanding of the importance of w
  5. Programming Project 5: Dijkstra's Algorithm: this was the final programming project and it was really neat because wrapping my head around Dijkstra's in 1004 took a while but by this point I not only really thoroughly understood the use case for Dijkstra but also several other shortest path algorithms. Feeling comfortable programming this was really neat. We interacted with Dijkstra's through a GUI supplied by one of Professor Blaer's TAs that mapped out all of the major metros in the US. I personally for some reason was really struck by this. Getting to look at the source code made me less-intimidated about coding a GUI and was one of the inspirations for making a GUI for the Report Builder Helper I created for Social Standards.
   * *Grade 60/60*
 
+### COMS 3203 -- Discrete Mathematics
+**Professor: Ansaf Salleb-Aouissi**  
+**Semester: Fall 2020**
 
+3203 is Columbia's introductory Discrete Mathematics course. It covered everything from propositional logic, to proof techniques, counting, number theory, etc. The course was not incredibly programming heavy. This being said, there were a few Python projects which allowed us to code some math(y) things. There are brief breakdowns to a couple of these assignments below.
+
+1. Coding 1: 
+  * A Fibonacci program which examines recursively finds the nth fibonacci number
+2. Coding 2:
+  * A program which takes a list of lists that contain a logical expression and outputs the human readable propositional logic statement.
+  * A program which again takes a list of lists and evaluates the expression and returns a binary T/F evaluation.
+  * A program which again takes a list of lists and outputs a truth table containing each of the lists (propositions).
 
 ### COMS 1004 -- Introduction To Computer Science/Programming in Java
 **Professor: Adam Cannon**  
